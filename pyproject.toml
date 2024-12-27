@@ -1,0 +1,15 @@
+[project]
+name = "gql"
+version = "0.1.0"
+description = "graphql interface for mcp"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "uvicorn[standard]",
+    "fastmcp",
+    "python-dotenv",
+    "gql",
+    "aiohttp>=3.9.0",
+    "graphql-core>=3.2.3",
+    "ipykernel>=6.29.5",
+]
