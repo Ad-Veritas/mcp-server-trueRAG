@@ -9,8 +9,8 @@ The server is built using the [python SDK for MCP](https://github.com/modelconte
 ### Clone the repository
 
 ```bash
-git clone https://github.com/modelcontextprotocol/gql.git
-cd gql
+git clone https://github.com/Ad-Veritas/mcp-server-trueRAG.git
+cd mcp-server-trueRAG
 ```
 
 ### Make sure you have [uv](https://github.com/astral-sh/uv) installed
@@ -49,7 +49,7 @@ Add the following lines to the Claude configuration file (`~/Library/Application
       "command": "uv",
       "args": [
         "--directory",
-        "/Users/guy/Development/mcp/gql",
+        "{path_to_mcp_server}/mcp-server-trueRAG",
         "run",
         "fastmcp",
         "run",
