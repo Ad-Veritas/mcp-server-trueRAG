@@ -99,6 +99,8 @@ starlette==0.42.0
     # via
     #   mcp
     #   sse-starlette
+tenacity==9.0.0
+    # via -r requirments.in
 typer==0.15.1
     # via fastmcp
 typing-extensions==4.12.2
